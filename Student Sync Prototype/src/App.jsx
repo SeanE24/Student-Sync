@@ -3,10 +3,11 @@ import { Home, Car, Megaphone, User } from "lucide-react";
 import { C, css} from "./Theme";
 import HomeScreen from "./Homescreen.jsx";
 import Profile from "./profile.jsx";
+import Carpool from "./carpool.jsx";
 
 const TABS = [
   { key: "home", label: "Home", Icon: Home, Screen: HomeScreen },
-  { key: "carpool", label: "Carpool", Icon: Car },
+  { key: "carpool", label: "Carpool", Icon: Car, Screen: Carpool },
   { key: "updates", label: "Updates", Icon: Megaphone },
   { key: "profile", label: "Profile", Icon: User, Screen: Profile },
 ];
